@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            gridView = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)gridView).BeginInit();
+            SuspendLayout();
+            // 
+            // gridView
+            // 
+            gridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            gridView.Location = new Point(157, 60);
+            gridView.Name = "gridView";
+            gridView.Size = new Size(500, 300);
+            gridView.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(gridView);
+            Name = "Form1";
+            Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)gridView).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private DataGridView gridView;
     }
 }
