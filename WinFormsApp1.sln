@@ -11,15 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat2", "Feladat2\Felada
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pascalharomszog", "Pascalharomszog\Pascalharomszog.csproj", "{F2932B90-0E9C-4D79-94D8-37E206C80008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gyakorlo1", "Gyakorlo1\Gyakorlo1.csproj", "{93A8EA47-2102-436D-918C-5FF05F541D41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gyakorlo1", "Gyakorlo1\Gyakorlo1.csproj", "{93A8EA47-2102-436D-918C-5FF05F541D41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feladat2Gyakorlas", "Feladat2Gyakorlas\Feladat2Gyakorlas.csproj", "{1A082CD0-E06F-4FA7-B5EF-AF7FC76088A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feladat2Gyakorlas", "Feladat2Gyakorlas\Feladat2Gyakorlas.csproj", "{1A082CD0-E06F-4FA7-B5EF-AF7FC76088A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SzamoloGomb", "SzamoloGomb\SzamoloGomb.csproj", "{515F0EBB-0549-492C-975F-86CDF962A389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzamoloGomb", "SzamoloGomb\SzamoloGomb.csproj", "{515F0EBB-0549-492C-975F-86CDF962A389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGombok", "RandomGombok\RandomGombok.csproj", "{768D9C65-E923-455D-830C-C088503E6754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGombok", "RandomGombok\RandomGombok.csproj", "{768D9C65-E923-455D-830C-C088503E6754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaromszogGombok", "HaromszogGombok\HaromszogGombok.csproj", "{F0F99243-F5F3-4019-AA07-6C33F899F09B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaromszogGombok", "HaromszogGombok\HaromszogGombok.csproj", "{F0F99243-F5F3-4019-AA07-6C33F899F09B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kigyo", "Kigyo\Kigyo.csproj", "{D9A23BFD-B75F-44E1-8642-A6B54296ABF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{F0F99243-F5F3-4019-AA07-6C33F899F09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0F99243-F5F3-4019-AA07-6C33F899F09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0F99243-F5F3-4019-AA07-6C33F899F09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A23BFD-B75F-44E1-8642-A6B54296ABF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A23BFD-B75F-44E1-8642-A6B54296ABF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A23BFD-B75F-44E1-8642-A6B54296ABF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A23BFD-B75F-44E1-8642-A6B54296ABF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
