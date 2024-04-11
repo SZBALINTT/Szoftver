@@ -40,7 +40,7 @@
             // textBox1
             // 
             textBox1.DataBindings.Add(new Binding("Text", bindingSource1, "Name", true));
-            textBox1.Location = new Point(136, 104);
+            textBox1.Location = new Point(136, 125);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 0;
@@ -60,14 +60,14 @@
             // textBox3
             // 
             textBox3.DataBindings.Add(new Binding("Text", bindingSource1, "AreaInSquareKm", true));
-            textBox3.Location = new Point(136, 202);
+            textBox3.Location = new Point(136, 183);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(100, 23);
             textBox3.TabIndex = 2;
             // 
             // button1
             // 
-            button1.Location = new Point(386, 124);
+            button1.Location = new Point(161, 212);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 3;
@@ -86,6 +86,7 @@
             Controls.Add(textBox1);
             Name = "FormCountryData";
             Text = "FormCountryData";
+            Load += FormCountryData_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
             PerformLayout();
